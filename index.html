@@ -1,104 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>MY PORTFOLIO</title>
-    <style>
-      header {
-        text-decoration-line: underline;
-        color: #153ab3;
-        text-align: center;
-      }
-      .def{
-        border: 2px solid black;
-        border-collapse: collapse;
-        border-width: 100%;
-        background-color: #6cb6b6;
-      
-      }
-      .abc{
-        display: flex;
-        flex-direction: column;
-        background-color: rgb(147, 145, 240);
-        width: 1000px;
-        height: 1000px;
-        font-size: 100px;
-        
-      }
-      .abc > div a {
-        background-color: rgb(147, 145, 240);
-        width: 150px;
-        height: 0px;
-        margin: 10px;
-        padding: 10;
-        text-align: center;
-        line-height: 40px;
-        font-size: 20px;
-      }
-      .ghi{
-        display: flex;
-        background-color: rgb(255, 255, 255);
-        width: 100%
-        height:500px;
-      }
-      .ghi > div a{
-        background-color: rgb(147, 145, 240);
-        width: 150px;
-        height: 0px;
-        margin: 10px;
-        padding: 10;
-        text-align: center;
-        line-height: 40px;
-        font-size: 20px;
-    
-      }
-      .jkl img{
-        display: block;
-        margin: 0 auto;
-      }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY PORTFOLIO</title>
+  <style>
+    header {
+      text-decoration-line: underline;
+      color: #153ab3;
+      text-align: center;
+    }
+
+    .def {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      background-color: #6cb6b6;
+      border: 2px solid black;
+      padding: 10px;
+    }
+
+    .def img {
+      max-width: 100%; 
+      height: auto;   
+      display: block;
+    }
+
+    .abc {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(147, 145, 240);
+      width: 200px;
+      height: 500px;
+    }
+
+    .abc > div a {
+      background-color: rgb(147, 145, 240);
+      width: 150px;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      line-height: 40px;
+      font-size: 20px;
+      display: block;
+    }
+
+    .ghi {
+      display: flex;
+      background-color: #fff;
+      width: 100%;
+      min-height: 500px;
+    }
+
+    .ghi > div a {
+      background-color: rgb(147, 145, 240);
+      width: 150px;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      line-height: 40px;
+      font-size: 20px;
+      display: block;
+    }
+
+    .jkl img {
+      display: block;
+      margin: 0 auto; 
+      max-width: 100%;
+      height: auto;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      padding: 10px;
+      background-color: #eee;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>MY PORTFOLIO</h1>
     <div class="def">
-    <img src="https://thumbs.dreamstime.com/b/faceless-woman-face-icon-female-face-silhouette-characters-social-media-networking-user-profile-website-app-design-269607055.jpg" alt="My photo" width="500" height="400" >
+      <img src="https://thumbs.dreamstime.com/b/faceless-woman-face-icon-female-face-silhouette-characters-social-media-networking-user-profile-website-app-design-269607055.jpg" alt="My photo">
     </div>
   </header>
+
   <div class="ghi">
     <div class="abc">
-      <div><a href="#home"style="font-size: 40px">Home</a></div>
-      <div><a href="qualification.html"style="font-size: 40px">Qualifications</a></div>
-      <div><a href="contact.html"style="font-size: 40px">Contact</a></div>
+      <div><a href="#home">Home</a></div>
+      <div><a href="#about">About us</a></div>
+      <div><a href="#qualifications">Qualifications</a></div>
     </div>
-    <div class="jkl">
-    <p style="font-size: 50px;"> About Me </p>
-    <div>
-      <img src="https://www.successconsciousness.com/blog/wp-content/uploads/positiveness.jpg" alt="About image" width="500">
-      <p style="font-size: 40px;">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-         Odit voluptate sed, fugit molestias blanditiis unde natus possimus ducimus 
-         sint quidem totam quos ratione expedita eveniet autem doloribus aspernatur facere 
-         recusandae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat veniam fugiat 
-         voluptate excepturi architecto ad aliquid dolorum, sit eligendi ullam labore voluptatum molestias 
-         commodi harum odio provident dicta perferendis porro. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Delectus harum quaerat itaque laborum vitae, labore ratione repellendus molestiae voluptas deserunt optio
-           blanditiis similique corrupti velit, libero suscipit recusandae voluptate perferendis. Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Sequi maiores et assumenda, quaerat hic aspernatur omnis obcaecati
-             fuga deserunt qui soluta quisquam dolor voluptatum, mollitia nihil, facilis unde quibusdam nam! Lorem ipsum 
-             dolor sit amet consectetur adipisicing elit. Mollitia laboriosam quidem aperiam commodi provident 
-             consectetur itaque fuga ea, eos minima accusamus voluptatum at perspiciatis dolorum perferendis maiores
-              sint ipsum magnam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sed velit voluptatum
-               laudantium ab magni tenetur nesciunt corrupti quasi necessitatibus deserunt, quae est a, atque, quas id 
-               perferendis odio explicabo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequuntur illo sint dicta molestiae obcaecati. Ut provident, exercitationem ad nihil odit beatae dignissimos
-                quas impedit architecto, eum eligendi numquam nostrum!
-      </p>
-    </div>
+
+    <div class="jkl" id="about">
+      <p>About Me</p>
+      <div>
+        <img src="https://www.successconsciousness.com/blog/wp-content/uploads/positiveness.jpg" alt="About image">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Odit voluptate sed, fugit molestias blanditiis unde natus possimus ducimus 
+          sint quidem totam quos ratione expedita eveniet autem doloribus aspernatur facere 
+          recusandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veniam fugiat 
+          voluptate excepturi architecto ad aliquid dolorum, sit eligendi ullam labore voluptatum molestias 
+          commodi harum odio provident dicta perferendis porro.
+        </p>
+      </div>
     </div>
   </div>
-  
 
+  <footer>
+    <p>2025 Sneha — All rights reserved</p>
   </footer>
 </body>
 </html>
